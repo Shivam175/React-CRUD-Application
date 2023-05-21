@@ -3,7 +3,7 @@ import { Button, Card } from "react-bootstrap";
 import { v4 as uuidv4 } from "uuid";
 import BooksList from "./BooksList";
 import { BookInterface, FormBook } from "../@types/book";
-import { ReactForm } from "react-forms-lite";
+import { ReactForm } from "react-forms";
 import { formValidation, formConfig } from "./constants";
 import clsx from "clsx";
 
